@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+ultralytics
+opencv-python-headless
+pillow
+pyjwt
+requests
+streamlit>=1.40.0
+pydantic
+numpy
