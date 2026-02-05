@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # CONFIG
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://traffic-vehile-identifier.onrender.com"
 
 st.set_page_config(page_title="Traffic Intel 🚦", layout="wide")
 
