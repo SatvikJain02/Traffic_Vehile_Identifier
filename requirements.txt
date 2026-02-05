@@ -1,11 +1,20 @@
+# Web Server
 fastapi
 uvicorn[standard]
 python-multipart
-ultralytics
+requests
+pyjwt
+
+# Computer Vision & Logic
 opencv-python-headless
 pillow
-pyjwt
-requests
+numpy
+
+# Model (The CPU version is safer for Render Free Tier)
+ultralytics
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# Frontend
 streamlit>=1.40.0
 pydantic
-numpy
